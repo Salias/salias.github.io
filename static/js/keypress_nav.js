@@ -21,6 +21,9 @@ $(document).ready(function()
 
 			case '4'.charCodeAt(0):	window.location.href="talks.html";
 					break;
+
+			case '5'.charCodeAt(0):	window.open("static/docs/cv.pdf", "_blank");
+					break;					
 		}
 	});
 });
